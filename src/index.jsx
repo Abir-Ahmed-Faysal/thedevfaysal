@@ -1,4 +1,4 @@
-import React from "react";
+import { Element } from "react-scroll";
 import Navbar from "./Navbar/Navbar";
 import Banner from "./Home/Banner";
 import AboutMe from "./Home/AboutMe";
@@ -8,14 +8,25 @@ import Contact from "./Home/Contact";
 const Index = () => {
   return (
     <>
-      {" "}
       <div className="relative">
-        <Navbar></Navbar>
-        <Banner></Banner>
-        <AboutMe></AboutMe>
-      </div>
-      <Projects></Projects>
-      <Contact></Contact>
+        <Navbar />
+
+        <Element name="home">
+          <Banner />
+        </Element>
+</div>
+        <Element name="about">
+          <AboutMe />
+        </Element>
+      
+
+      <Element name="projects">
+        <Projects />
+      </Element>
+
+      <Element name="contact">
+        <Contact />
+      </Element>
     </>
   );
 };

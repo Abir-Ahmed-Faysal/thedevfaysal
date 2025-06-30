@@ -1,15 +1,26 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import { Github, Info,Radio } from 'lucide-react';
+import { Github, Info, Radio } from 'lucide-react';
 
 const ProjectCard = ({ project }) => {
   return (
     <div className="grid grid-cols-1 md:p-10 md:max-w-6xl lg:max-w-7xl mx-auto text-white lg:grid-cols-2 gap-8 border p-4 rounded-xl shadow">
+      
       {/* Carousel Section */}
       <div>
         {project.carousel.enabled && project.carousel.slides.length > 0 && (
-          <Swiper spaceBetween={10} slidesPerView={1}>
+          <Swiper
+            spaceBetween={10}
+            slidesPerView={1}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
+          >
             {project.carousel.slides.map((slide, idx) => (
               <SwiperSlide key={idx}>
                 <img src={slide} alt={`Slide ${idx + 1}`} className="rounded-xl" />
