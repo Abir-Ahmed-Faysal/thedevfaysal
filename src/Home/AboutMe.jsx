@@ -1,5 +1,5 @@
 import React from 'react';
-import Faysal from '../assets/profile.jpeg'
+import Faysal from '../assets/faysal.jpeg'
 const AboutMe = () => {
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4 py-8 md:px-16 md:py-20">

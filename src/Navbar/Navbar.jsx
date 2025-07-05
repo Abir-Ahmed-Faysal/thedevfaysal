@@ -46,7 +46,7 @@ const Navbar = () => {
 
           {/* Download CV Button */}
           <a
-         href="https://drive.google.com/uc?export=download&id=1Xp69rYIbj829Ob3YLad5OYBPmYXAvlza"
+         href="https://drive.google.com/uc?export=download&id=1Vt0q1O5aaUQirqTBCGwljRHuWrSLSirQ"
       download
             className="flex justify-center items-center space-x-2 text-[#F35E59]  btn btn-outline gap-1  p-2 py-1 rounded hover:bg-[#F35E59] hover:text-white transition duration-300"
           >

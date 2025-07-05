@@ -1,4 +1,4 @@
-import Faysal from "../assets/profile.jpeg";
+import Faysal from "../assets/about.jpeg";
 import { Github, Linkedin, Twitter, Download } from "lucide-react";
 
 const Banner = () => {
@@ -56,7 +56,7 @@ const Banner = () => {
 
         {/* Download CV Button */}
         <a
-          href="https://drive.google.com/uc?export=download&id=1Xp69rYIbj829Ob3YLad5OYBPmYXAvlza"
+          href="https://drive.google.com/uc?export=download&id=1Vt0q1O5aaUQirqTBCGwljRHuWrSLSirQ"
           download
           className="mt-6 inline-flex items-center gap-2 bg-[rgb(243,94,89)] text-white px-6 py-2 rounded-full font-medium hover:bg-[rgb(214,73,68)] transition-all"
         >
