@@ -1,5 +1,5 @@
 import React from 'react';
-import Faysal from '../assets/faysal.jpeg'
+import Faysal from '../assets/profile.jpeg'
 const AboutMe = () => {
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4 py-8 md:px-16 md:py-20">
@@ -30,8 +30,8 @@ const AboutMe = () => {
             <table className="w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="py-2 font-semibold">Name: Faysal Ahmed</td>
-                  <td className="py-2">Age: 23</td>
+                  <td className="py-2 font-semibold">Name: Md Faysal Ahmed</td>
+                  <td className="py-2">Age: 22</td>
                 </tr>
                 <tr>
                   <td className="py-2 font-semibold">Phone: +880 1779161032</td>

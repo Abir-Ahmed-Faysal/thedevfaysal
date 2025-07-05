@@ -1,4 +1,4 @@
-import Faysal from "../assets/profile.jpg";
+import Faysal from "../assets/profile.jpeg";
 import { Github, Linkedin, Twitter, Download } from "lucide-react";
 
 const Banner = () => {
@@ -14,10 +14,10 @@ const Banner = () => {
         />
 
         <h1 className="text-2xl sm:text-3xl font-bold text-[rgb(243,94,89)]">
-          Faysal Ahmed
+         Md Faysal Ahmed
         </h1>
         <p className="text-base sm:text-lg mt-2 text-white font-semibold max-w-lg">
-          A creative Freelancer & MERN Stack Developer
+          A MERN Stack based Frontend Developer
         </p>
 
         {/* Social Icons */}
@@ -58,7 +58,7 @@ const Banner = () => {
         <a
           href="https://drive.google.com/uc?export=download&id=1Xp69rYIbj829Ob3YLad5OYBPmYXAvlza"
           download
-          className="mt-6 inline-flex items-center gap-2 bg-[rgb(243,94,89)] text-white px-6 py-2 rounded-full font-medium hover:bg-red-600 transition-all"
+          className="mt-6 inline-flex items-center gap-2 bg-[rgb(243,94,89)] text-white px-6 py-2 rounded-full font-medium hover:bg-[rgb(214,73,68)] transition-all"
         >
           <Download size={20} />
           Download CV
