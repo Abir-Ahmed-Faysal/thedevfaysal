@@ -3,7 +3,7 @@ import { Github, Linkedin, Twitter, Download } from "lucide-react";
 
 const Banner = () => {
   return (
-    <section className="pt-20 bg-[url('/banner.jpg')] bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center relative">
+    <section className=" bg-[url('/banner.jpg')] bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center relative">
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70 z-0"></div>
 
       <div className="text-center flex flex-col items-center p-6 z-10">
@@ -14,7 +14,7 @@ const Banner = () => {
         />
 
         <h1 className="text-2xl sm:text-3xl font-bold text-[rgb(243,94,89)]">
-         Md Faysal Ahmed
+          Md Faysal Ahmed
         </h1>
         <p className="text-base sm:text-lg mt-2 text-white font-semibold max-w-lg">
           A MERN Stack based Frontend Developer

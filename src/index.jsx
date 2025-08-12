@@ -4,30 +4,34 @@ import Banner from "./Home/Banner";
 import AboutMe from "./Home/AboutMe";
 import Projects from "./Home/Projects";
 import Contact from "./Home/Contact";
+import Skills from "./Home/Skills";
 
 const Index = () => {
   return (
-    <>
-      <div className="relative">
-        <Navbar />
+  <>
+  <Navbar />
 
-        <Element name="home">
-          <Banner />
-        </Element>
-</div>
-        <Element name="about">
-          <AboutMe />
-        </Element>
-      
+  <Element name="home">
+    <Banner />
+  </Element>
 
-      <Element name="projects">
-        <Projects />
-      </Element>
+  <Element name="about">
+    <AboutMe />
+  </Element>
 
-      <Element name="contact">
-        <Contact />
-      </Element>
-    </>
+  <Element name="skills">
+    <Skills />
+  </Element>
+
+  <Element name="projects">
+    <Projects />
+  </Element>
+
+  <Element name="contact">
+    <Contact />
+  </Element>
+</>
+
   );
 };
 
